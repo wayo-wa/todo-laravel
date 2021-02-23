@@ -1,0 +1,30 @@
+// プロジェクト固有のパターン
+
+/*=============================
+    header（プロジェクト）
+===============================*/
+.p-header {
+    height: 100%;
+    background: #15274D;
+    padding: 10px 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    // ヘッダーロゴ
+    &__logo {
+        font-size: 25px;
+        font-family: 'Comfortaa', cursive;
+        @include mq() {
+            font-size: 20px;
+        }
+    }
+    
+    // ヘッダーナビ
+    &__nav{
+        color: #fff;
+        @include mq(sm) {
+            display: none;
+        }
+    }
+}

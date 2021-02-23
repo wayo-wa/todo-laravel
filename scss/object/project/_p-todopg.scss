@@ -1,0 +1,105 @@
+// プロジェクト固有のパターン
+
+/*=============================
+    todoページ（プロジェクト）
+===============================*/
+.p-todopg {
+    &__bigbg {
+        background: #fff;
+        min-height: 100vh;
+    }
+    &__block {
+        width: 800px;
+        padding: 60px 10px 10px;
+        margin: 0 auto;
+        @include mq(md) {
+            width: 70%;
+            padding-top: 30px;
+        }
+        @include mq() {
+            width: 100%;
+        }
+    }
+    /* ページタイトル */
+    &__title {
+        color: #337ab7;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    /* リスト作成フォームエリア */
+    &__form {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        &-btn {/*form内の追加・編集ボタン*/
+            width: 60px;
+            color: #fff;
+            background: #337ab7;
+            border-color: #2e6da4;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            &:hover {
+                background: #286090;
+            }
+        }
+    }
+    /* リスト作成フォームinput */
+    &__input {
+        width: 100%;
+        background: #fff;
+        padding: 10px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }    
+    /*  リスト一覧エリア */
+    &__list {
+        width: 100%;
+        &-item {
+            overflow: hidden;//icon-wrapのfloat解除 
+            margin-bottom: -1px;//listのborder-bottomの重なり分
+            width: 100%;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 10px 15px;
+            transition: .5s transform;
+            &:first-child {
+                border-top-left-radius: 4px;
+                border-top-right-radius: 4px;
+            }
+            &:last-child {
+                border-bottom-right-radius: 4px;
+                border-bottom-left-radius: 4px;
+            } 
+        }
+    }
+    &__icon {
+        &-wrap {
+            float: right;
+        }
+        &-btn {
+            color: #fff;
+            padding: 2px 5px;
+            font-size: 15px;
+            line-height: 1.5;
+            border-radius: 3px;
+            border: 1px solid;
+            &--info {
+                background: #5bc0de;
+                border-color: #46b8da;
+                &:hover {
+                    background: #31b0d5;
+                }
+            }
+            &--delete {
+                background: #f0ad4e;
+                border-color: #eea236;
+                &:hover {
+                    background: #ec971f;
+                }
+            }
+        }
+    }
+}
+
