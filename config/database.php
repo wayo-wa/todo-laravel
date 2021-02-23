@@ -52,13 +52,13 @@ return [
             'username' => env('DB_USERNAME', 'todo_user'),
             'password' => env('DB_PASSWORD', 'todo_2020_12'),
             // 'unix_socket' => env('DB_SOCKET', 'C:/xampp/mysql/mysql.sock'),
+            'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
             'prefix_indexes' => true,
             'strict' => true,
             'engine' => null,
-            'unix_socket' => '/tmp/mysql/mysql.sock', // 新しく追加
             'options' => extension_loaded('pdo_mysql') ? array_filter([
                 PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
             ]) : [],
