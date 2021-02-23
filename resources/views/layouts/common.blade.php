@@ -17,7 +17,8 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <!-- <link rel="stylesheet" href="{{ asset('css/app.css') }}"> -->
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
 
 <body>
@@ -54,8 +55,8 @@
 
     
     <!-- jsファイル読み込み -->
-    <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
-    
+    <!-- <script type="text/javascript" src="{{ asset('js/app.js') }}"></script> -->
+    <script src="{{ mix('js/app.js') }}"></script>
     
 
     
