@@ -52,7 +52,7 @@ return [
             'username' => env('DB_USERNAME', 'todo_user'),
             'password' => env('DB_PASSWORD', 'todo_2020_12'),
             // 'unix_socket' => env('DB_SOCKET', 'C:/xampp/mysql/mysql.sock'),
-            'unix_socket' => env('DB_SOCKET', ''),
+            'unix_socket' => env('DB_SOCKET', ''),//新しく追記
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
