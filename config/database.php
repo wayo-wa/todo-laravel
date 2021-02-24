@@ -48,10 +48,9 @@ return [
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'todolist'),
-            'username' => env('DB_USERNAME', 'todo_user'),
-            'password' => env('DB_PASSWORD', 'todo_2020_12'),
-            // 'unix_socket' => env('DB_SOCKET', 'C:/xampp/mysql/mysql.sock'),
+            'database' => env('DB_DATABASE', ''),
+            'username' => env('DB_USERNAME', ''),
+            'password' => env('DB_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),//新しく追記
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',

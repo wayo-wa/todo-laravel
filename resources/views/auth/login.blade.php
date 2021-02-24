@@ -16,7 +16,7 @@
                 @enderror
                 <label class="u-position-re">
                     <i class="fas fa-envelope c-icon p-form__icon"></i>
-                    <input class="p-form__input u-mb-10 @error('email') is-invalid @enderror" type="email" name="email" placeholder="メールアドレス">
+                    <input class="p-form__input u-mb-10 @error('email') is-invalid @enderror" type="email" name="email" placeholder="メールアドレス" autocomplete="off">
                 </label>
                 @error('password')
                     <p class="u-color--warning">{{ $message }}</p>

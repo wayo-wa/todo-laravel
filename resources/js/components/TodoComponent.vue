@@ -6,7 +6,7 @@
             <!-- リスト作成フォームエリア -->
             <form class="u-mb-30" method="POST" novalidate="novalidate">
                 <div class="p-todopg__form">
-                    <input ref="editor" class="p-todopg__input" type="text" name="text" v-model="new_todo">
+                    <input ref="editor" class="p-todopg__input" type="text" name="text" v-model="new_todo" autocomplete="off">
                     <!-- bottun -->
                     <button @click="send()" class="p-todopg__form-btn" type="button">{{changeButtonText}}</button>
                 </div> 

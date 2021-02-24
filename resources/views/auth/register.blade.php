@@ -17,7 +17,7 @@
                     @enderror
                     <label class="u-position-re">
                         <i class="fas fa-user-alt c-icon p-form__icon"></i>
-                        <input class="p-form__input u-mb-10 @error('name') is-invalid @enderror" type="text" name="name" placeholder="ニックネーム" value="{{ old('name') }}">
+                        <input class="p-form__input u-mb-10 @error('name') is-invalid @enderror" type="text" name="name" placeholder="ニックネーム" value="{{ old('name') }}" autocomplete="off">
                     </label>
                 
                     <!-- email -->
@@ -26,7 +26,7 @@
                     @enderror
                     <label class="u-position-re">
                         <i class="fas fa-envelope c-icon p-form__icon"></i>
-                        <input class="p-form__input u-mb-10 @error('email') is-invalid @enderror" type="email" name="email" placeholder="メールアドレス" value="{{ old('email') }}">
+                        <input class="p-form__input u-mb-10 @error('email') is-invalid @enderror" type="email" name="email" placeholder="メールアドレス" value="{{ old('email') }}" autocomplete="off">
                     </label>
                     
                     <!-- password -->
