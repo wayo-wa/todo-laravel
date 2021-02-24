@@ -9,3 +9,4 @@
 
 #### トップ画面 
 ![os4iv-jga6k](https://user-images.githubusercontent.com/73923419/108955658-e77dc380-76b1-11eb-942f-13bc8bbe3f67.gif)
+<img src="https://user-images.githubusercontent.com/73923419/108955658-e77dc380-76b1-11eb-942f-13bc8bbe3f67.gif" width="500px">
