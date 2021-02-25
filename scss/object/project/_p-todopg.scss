@@ -31,7 +31,7 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
-        border: 1px solid #ccc;
+        border: 2px solid #ccc;
         border-radius: 4px;
         &-btn {/*form内の追加・編集ボタン*/
             width: 60px;
@@ -58,12 +58,13 @@
         width: 100%;
         &-item {
             overflow: hidden;//icon-wrapのfloat解除 
-            margin-bottom: -1px;//listのborder-bottomの重なり分
+            margin-bottom: -2px;//listのborder-bottomの重なり分
             width: 100%;
             background: #fff;
-            border: 1px solid #ccc;
+            border: 2px solid #ccc;
             padding: 10px 15px;
             transition: .5s transform;
+            font-size: 18px;
             &:first-child {
                 border-top-left-radius: 4px;
                 border-top-right-radius: 4px;
