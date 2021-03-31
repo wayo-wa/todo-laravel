@@ -9,6 +9,12 @@
 #### 【アプリケーション概要】　
 &emsp;&emsp;TO DO LIST の作成・編集・削除が行えるアプリケーションです。 
 #### 【URL】&emsp;https://todo-2021.herokuapp.com/<br> 
+#### 【利用方法】<br>
+&emsp;&emsp;1)&emsp;初回は「新規登録」よりユーザー登録（ニックネーム、メールアドレス、パスワード）を行います。<br> 
+&emsp;&emsp;2)&emsp;登録済みの場合は「ログイン」よりメールアドレス、パスワード入力でマイページに遷移します。<br> 
+&emsp;&emsp;3)&emsp;「マイページ」はTODO情報が表示されます。「追加」にて新規TODOを登録できます。<br> 
+&emsp;&emsp;4)&emsp;「ペン」アイコンからTODOの編集が行えます。入力欄のボタンが「編集」に変わります。<br> 
+&emsp;&emsp;5)&emsp;「ゴミ箱」アイコンからTODOの削除が行えます。<br> 
 #### 【補足】<br>
 &emsp;&emsp;ログイン認証などはLaravelで作成し、リストの登録・編集・削除はvue.jsのaxios<br> 
 &emsp;&emsp;を使用し非同期通信で行いました。<br> 
