@@ -7,5 +7,9 @@
 ●使用言語：HTML/SCSS/PHP(Laravel)/JS(vue.js)  
 ●制作日数：約35日間
 
-###### ログイン認証などLaravelで作成し、リストの登録・編集・削除をvue.jsのaxiosを使用し非同期通信で行います。
+#### 【URL】&emsp;https://todo-2021.herokuapp.com/<br> 
+#### 【補足】<br>
+&emsp;&emsp;ログイン認証などはLaravelで作成し、リストの登録・編集・削除はvue.jsのaxios<br> 
+&emsp;&emsp;を使用し非同期通信で行いました。<br> 
+
 <img src="https://user-images.githubusercontent.com/73923419/108955658-e77dc380-76b1-11eb-942f-13bc8bbe3f67.gif" width="650px">
