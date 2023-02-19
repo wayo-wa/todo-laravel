@@ -1,6 +1,6 @@
 ## TO DO LIST  
   
-●使用ＯＳ：windows10  
+●使用ＯＳ：Windows10  
 ●データベース：ClearDB Mysql  
 ●作成目的：各フレームワーク学習の為(Laravel、Vue.js)  
 ●使用言語：HTML/SCSS/PHP(Laravel)/JS(Vue.js)  
